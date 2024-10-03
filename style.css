@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #423c23;
+  color: #f3daba;
+  margin: 0 auto;
+}
+
+main {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1,
+h3 {
+  text-transform: uppercase;
+}
+
+header,
+footer {
+  background-color: antiquewhite;
+  color: #423c23;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a,
+footer a {
+  text-decoration: none;
+  color: #423c23;
+  transition: 0.3s ease-in-out;
+}
+
+header a:hover,
+footer a:hover {
+  color: #77272a;
+  font-weight: bold;
+}
+
+header ul,
+footer ul {
+  list-style-type: none;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  margin-right: 2em;
+}
+
+header img {
+  width: 12%;
+}
+
+footer section {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  margin-right: 2em;
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+}
+
+ol :hover {
+  color: #77272a;
+}
+
+main img {
+  width: 50%;
+}
+
+section img {
+  width: 3em;
+}
+
+iframe,
+.aflevering {
+  border: solid;
+  border-color: #f3daba;
+  border-radius: 3em;
+  padding: 1em;
+}
+
+iframe {
+  background-color: antiquewhite;
+}
